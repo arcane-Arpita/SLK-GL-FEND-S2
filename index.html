@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Flowers School</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> <!-- Include JavaScript file -->
+</head>
+<body>
+    <header>
+        <!-- <h1>Spring Flowers School</h1> -->
+        <nav>
+            <img src="schoolLogo.png" alt="Logo"> <!-- Replace with your logo path -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#" id="timetable-btn">TimeTable</a></li>
+                <!-- Add more menu items as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="welcome">
+            <h2 id="welcome-text">Welcome to Spring Flowers School</h2>
+        </section>
+
+        <section id="introduction" style="opacity: 0;">
+            <!-- <h2>Introduction</h2> -->
+            <p>Spring Flowers is a nurturing educational institution committed to academic excellence and holistic growth. Located in a serene environment, we offer a comprehensive curriculum and enriching extracurricular activities to empower students. Our approach fosters creativity, critical thinking, and leadership skills, preparing students to thrive in a dynamic world. Join us in cultivating a community where every student is encouraged to excel and contribute positively to society.</p>
+        </section>
+
+        <div class="dropdown" id="dropdown" style="display: none;">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <a href="#" onclick="optionSelected('Option 1')">Monday</a>
+            <a href="#" onclick="optionSelected('Option 2')">Tuesday</a>
+            <a href="#" onclick="optionSelected('Option 3')">Wednesday</a>
+            <a href="#" onclick="optionSelected('Option 4')">Thursday</a>
+            <a href="#" onclick="optionSelected('Option 5')">Friday</a>
+            <a href="#" onclick="optionSelected('Option 6')">Satruday</a>
+        </div>
+    </div>
+    
+    <div class="content" id="content">
+        <!-- <p>Select an option to see the content.</p> -->
+    </div>
+    
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Spring Flowers School. All rights reserved.</p>
+    </footer>
+
+   
+</body>
+</html>
